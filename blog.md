@@ -1,7 +1,16 @@
 ---
 layout: page
-title: Blog
-lang: fr
-lang_ref: blog
+title: "Blog"
 permalink: /blog/
 ---
+
+Voici tous les articles publiés avec ce template.
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <span> – {{ post.date | date: "%Y-%m-%d" }}</span>
+    </li>
+  {% endfor %}
+</ul>
