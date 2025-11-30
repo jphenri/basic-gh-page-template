@@ -1,12 +1,19 @@
 ---
-title: "Projets"
+layout: page
+title: "Blog"
 lang: fr
-lang_ref: projects
-permalink: /projects/
+lang_ref: blog
+permalink: /blog/
 ---
 
-Liste de projets que tu peux mettre en avant :
+Voici tous les articles publiés avec ce template.
 
-- Chez Gerry 1958 – cordonnerie premium à Gatineau
-- Chuck’s casse-croûte – casse-croûte / poutine
-- jphenri.ca – Business 2.0, IA, DevOps
+<ul>
+  {% assign lang_posts = site.posts | where: "lang", page.lang %}
+  {% for post in lang_posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <span> – {{ post.date | date: "%Y-%m-%d" }}</span>
+    </li>
+  {% endfor %}
+</ul>
