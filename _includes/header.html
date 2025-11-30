@@ -21,7 +21,7 @@
         {% endfor %}
       {% endif %}
 
-      {#--- NAV LIENS ---#}
+      #--- NAV LIENS ---#
       {% if current_lang == "fr" %}
         <a href="{{ '/' | relative_url }}">Accueil</a>
         <a href="{{ '/blog/' | relative_url }}">Blog</a>
@@ -34,7 +34,7 @@
         <a href="{{ '/en/contact/' | relative_url }}">Contact</a>
       {% endif %}
 
-      {#--- SWITCH LANG ---#}
+      #--- SWITCH LANG ---#
       <span class="lang-switch">
         {% if current_lang == "fr" %}
           <strong>FR</strong>
