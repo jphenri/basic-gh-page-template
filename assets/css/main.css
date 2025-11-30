@@ -279,3 +279,20 @@ a:hover {
     align-items: flex-start;
   }
 }
+.lang-switch {
+  margin-left: 1.5rem;
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
+
+.lang-switch strong {
+  font-weight: 700;
+}
+
+.lang-switch a {
+  text-decoration: none;
+}
+
+.lang-switch .lang-disabled {
+  opacity: 0.4;
+}
