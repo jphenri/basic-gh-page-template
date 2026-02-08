@@ -35,6 +35,8 @@ bundle exec jekyll serve
 http://127.0.0.1:4000/basic-gh-page-template/
 ```
 
+Le fichier `Gemfile` est inclus pour garder un environnement local proche de GitHub Pages.
+
 ## Personnalisation
 
 Modifie `/_config.yml`:
@@ -43,6 +45,8 @@ Modifie `/_config.yml`:
 - `url`, `baseurl`
 - `repository_url`
 - `author`, `author_title`, `author_country`, `author_locality`
+
+Note: pour un nouveau repo GitHub Pages, adapte `baseurl` avec le nom du repo (ou laisse vide pour un domaine custom).
 
 Pages principales:
 
