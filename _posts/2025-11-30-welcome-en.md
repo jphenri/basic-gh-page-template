@@ -1,6 +1,10 @@
 ---
 title: Welcome
-tags: template
 lang: en
+lang_ref: welcome
+tags:
+  - template
+  - starter
 ---
-Sample English post.
+
+This is a sample article in English.

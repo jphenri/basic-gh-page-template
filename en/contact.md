@@ -1,5 +1,7 @@
 ---
+layout: page
 title: "Contact"
+description: "How to reach me for a project or collaboration."
 lang: en
 lang_ref: contact
 permalink: /en/contact/
