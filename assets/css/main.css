@@ -28,7 +28,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Avenir Next", "Manrope", "Segoe UI", sans-serif;
+  font-family: "Nunito Sans", "Segoe UI", sans-serif;
   color: var(--ink);
   line-height: 1.65;
   background:
@@ -51,11 +51,13 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Fraunces", "Iowan Old Style", "Times New Roman", serif;
-  letter-spacing: 0.01em;
+  font-family: "Oswald", "Arial Narrow", sans-serif;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  font-weight: 600;
   line-height: 1.2;
   margin-top: 0;
-  color: #0b1120;
+  color: var(--ink);
 }
 
 p {
@@ -153,11 +155,13 @@ code {
 }
 
 .site-title {
+  font-family: "Oswald", "Arial Narrow", sans-serif;
   color: #fffaf5;
   text-decoration: none;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  font-size: 1.04rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  font-size: 1.1rem;
 }
 
 .site-nav {
@@ -168,8 +172,11 @@ code {
 }
 
 .site-nav a {
+  font-family: "Oswald", "Arial Narrow", sans-serif;
   color: rgba(255, 250, 245, 0.92);
-  font-size: 0.94rem;
+  font-size: 1rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   text-decoration: none;
   transition: color 0.2s ease, opacity 0.2s ease;
 }
@@ -217,10 +224,11 @@ code {
 }
 
 .hero-kicker {
+  font-family: "Oswald", "Arial Narrow", sans-serif;
   margin-bottom: 0.8rem;
   text-transform: uppercase;
-  letter-spacing: 0.16em;
-  font-size: 0.77rem;
+  letter-spacing: 0.13em;
+  font-size: 0.84rem;
   opacity: 0.85;
 }
 
@@ -264,6 +272,7 @@ code {
 /* Buttons */
 
 .btn {
+  font-family: "Oswald", "Arial Narrow", sans-serif;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -271,7 +280,9 @@ code {
   border-radius: 999px;
   padding: 0.62rem 1.25rem;
   border: 1px solid transparent;
-  font-size: 0.92rem;
+  font-size: 0.96rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   font-weight: 600;
   transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease;
 }
